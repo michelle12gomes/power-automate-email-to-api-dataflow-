@@ -1,0 +1,21 @@
+[
+  {
+    "companyId": @{variables('companyId')},
+    "makeName": "@{variables('makeName')}",
+    "modelName": "@{variables('modelName')}",
+ "variantName": "@{variables('variant')}",
+    "agreementNumber":"@{variables('opportunityNumber')}",
+    "engFuelType": "1",
+    "carCategory": "CAR",
+    "vat": "DEDUCTIBLE",
+    "tax": "WITHOUT",
+    "regCountry": "AU",
+    "taxCategory": "NONE",
+    "regNo": "@{variables('regNo')}",
+    "vin": "@{variables('frameNo')}",
+    "firstRegDay": "@{variables('firstRegDay')}",    
+    "firstRegMonth": "@{variables('firstRegMonth')}",
+    "firstRegYear": "@{variables('firstRegYear')}",
+    "category": "UNDEFINED"
+  }
+]
